@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Global Styles */
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("../Images/hero.jpg") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn-primary {
+  background-color: #f44336;
+  border-color: #f44336;
+}
+
+/* Trending Categories */
+.trending-categories {
+  padding: 100px 0;
+}
+
+.category-card {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.category-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.category-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Featured Brands */
+.featured-brands {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.featured-brands h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.brand-logos img {
+  width: 100px;
+  height: auto;
+  margin: 15px;
+}
+
+/* Fashion Inspiration */
+.fashion-inspiration {
+  background-color: #f9f9f9;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.fashion-inspiration h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.blog-posts {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.blog-post {
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.blog-post h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  color: #666;
+}
+
+/* Newsletter */
+.newsletter {
+  background-color: #f44336;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.newsletter h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.footer h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #ccc;
+}

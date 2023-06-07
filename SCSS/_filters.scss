@@ -1,0 +1,187 @@
+/* filters section css */
+
+section {
+  .myntra-breadCrumb {
+    ol {
+      li {
+        font-size: 10px;
+        a {
+          text-decoration: none;
+          color: #282c3f;
+        }
+      }
+      li.active {
+        font-weight: bold;
+        color: #282c3f;
+      }
+    }
+  }
+  .filters-column {
+    h1 {
+      font-weight: 700;
+      color: #282c3f;
+      text-transform: capitalize;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    a {
+      color: #ff3f6c;
+      text-decoration: none;
+      font-size: 9px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+  .filter-block-container {
+    .filter-block {
+      border-top: 1px solid #e9e9ed;
+      border-right: 1px solid #e9e9ed;
+      padding: 15px 15px 10px 0px;
+      h4 {
+        font-size: 10px;
+        color: #282c3f;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      label {
+        color: #282c3f;
+        font-size: 10px;
+        small {
+          color: #94969f;
+        }
+      }
+      .form-check-input {
+        border: 1px solid #c3c2c9;
+      }
+      .form-check-input:checked {
+        background-color: #ff3f6c;
+        border-color: #ff3f6c;
+      }
+      .form-check-input:focus {
+        box-shadow: none;
+        border: 1px solid #c3c2c9;
+      }
+      .brand-more {
+        cursor: pointer;
+        margin-top: 8px;
+        font-size: 11px;
+        margin-left: 23px;
+        color: #ff3f6c;
+      }
+      .colour-colorDisplay {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        display: inline-block;
+        // margin-right: 8px;
+        // margin-left: 27px;
+        border: 1px solid #d6d6d6;
+      }
+    }
+  }
+  .product-block-container {
+    margin-top: 27px;
+    border-top: 1px solid #e9e9ed;
+    .row {
+      .col {
+        width: 20%;
+        flex: unset;
+      }
+    }
+    .product-block {
+      position: relative;
+      color: #535665;
+      text-decoration: none;
+      .product-title {
+        font-weight: bold;
+        font-size: 12px;
+        color: #282c3f;
+      }
+      .product-description {
+        font-size: 10px;
+        color: #535766;
+      }
+      .product-price {
+        .product-discountedPrice {
+          font-size: 10px;
+          font-weight: 700;
+          color: #282c3f;
+        }
+        .product-strike {
+          text-decoration: line-through;
+          color: #7e818c;
+          font-weight: 400;
+          margin-left: 5px;
+          font-size: 8px;
+        }
+        .product-discountPercentage {
+          color: #ff905a;
+          font-weight: 400;
+          font-size: 10px;
+          margin-left: 5px;
+        }
+      }
+      .product-image {
+        position: relative;
+        .product-rating {
+          position: absolute;
+          bottom: 5px;
+          left: 10px;
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 6px;
+          font-weight: bold;
+          font-size: 8px;
+        }
+      }
+      &:hover {
+        .wishlist {
+          // bottom: 0; /* Slide up to show the wishlist */
+          opacity: 1; /* Show the wishlist button on hover */
+        }
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+      }
+      .wishlist {
+        position: absolute;
+        bottom: 30px; /* Initial position below the product block */
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        text-align: center;
+        height: 80px;
+        opacity: 0; /* Hide the wishlist button by default */
+        button {
+          padding: 6px 0;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          font-size: 14px;
+          text-transform: uppercase;
+          font-weight: 400;
+          border: 1px solid #a9afb1;
+          background-color: #fff;
+
+          &:hover {
+            border: 1px solid #000;
+          }
+
+          i {
+            margin-top: 3px;
+          }
+        }
+        small {
+          display: flex;
+          align-items: flex-start;
+          padding-top: 10px;
+        }
+      }
+    }
+  }
+}
+.product-block:hover .wishlist {
+  // bottom: 0; /* Slide up to show the wishlist */
+  opacity: 1; /* Show the wishlist button on hover */
+}
+/* Ends here */

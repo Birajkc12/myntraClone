@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@700&family=Newsreader&family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Assistant", sans-serif;
+  font-family: "Newsreader", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 0 0.5rem;
+  margin: 1px 0;
+}
+
+.account {
+  background-color: #fdedef;
+}
+
+header {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  background-color: unset transparent;
+}
+header .navbar .navbar-collapse ul li {
+  position: relative;
+}
+header .navbar .navbar-collapse ul li a {
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  border-bottom: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+header .navbar .navbar-collapse ul li span {
+  display: inline-block;
+  font-size: 10px;
+  color: #ff3f6c;
+  letter-spacing: normal;
+  text-align: left;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 105%;
+  transform: translateX(-50%);
+}
+header .navbar .navbar-collapse ul li span sup {
+  font-size: 100%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  text-transform: uppercase;
+}
+header .navbar .navbar-collapse form .desktop-query {
+  width: 320px;
+  display: flex;
+  align-items: center;
+}
+header .navbar .navbar-collapse form .desktop-query .desktop-searchBar {
+  border: none;
+  line-height: 24px;
+  border-radius: 4px;
+  color: #696e79;
+  background-color: #f5f5f6;
+  font-size: 14px;
+}
+header .navbar .navbar-collapse form .desktop-query .desktop-searchBar .desktop-submit {
+  border: none;
+  line-height: 24px;
+  border-radius: 4px;
+  color: #696e79;
+  background-color: #f5f5f6;
+  font-size: 14px;
+}
+header .navbar .navbar-collapse form .desktop-query .desktop-searchBar .desktop-submit .bi-search {
+  font-size: 1.2rem;
+  position: absolute;
+  right: 0.5rem;
+  cursor: pointer;
+}
+header .navbar .signup-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+@media (max-width: 992px) {
+  header .navbar .navbar-collapse ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header .navbar .navbar-collapse ul li a {
+    padding: 10px 0;
+  }
+  header .signup-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+/* filters section css */
+section .myntra-breadCrumb ol li {
+  font-size: 10px;
+}
+section .myntra-breadCrumb ol li a {
+  text-decoration: none;
+  color: #282c3f;
+}
+section .myntra-breadCrumb ol li.active {
+  font-weight: bold;
+  color: #282c3f;
+}
+section .filters-column h1 {
+  font-weight: 700;
+  color: #282c3f;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+section .filters-column a {
+  color: #ff3f6c;
+  text-decoration: none;
+  font-size: 9px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section .filter-block-container .filter-block {
+  border-top: 1px solid #e9e9ed;
+  border-right: 1px solid #e9e9ed;
+  padding: 15px 15px 10px 0px;
+}
+section .filter-block-container .filter-block h4 {
+  font-size: 10px;
+  color: #282c3f;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+section .filter-block-container .filter-block label {
+  color: #282c3f;
+  font-size: 10px;
+}
+section .filter-block-container .filter-block label small {
+  color: #94969f;
+}
+section .filter-block-container .filter-block .form-check-input {
+  border: 1px solid #c3c2c9;
+}
+section .filter-block-container .filter-block .form-check-input:checked {
+  background-color: #ff3f6c;
+  border-color: #ff3f6c;
+}
+section .filter-block-container .filter-block .form-check-input:focus {
+  box-shadow: none;
+  border: 1px solid #c3c2c9;
+}
+section .filter-block-container .filter-block .brand-more {
+  cursor: pointer;
+  margin-top: 8px;
+  font-size: 11px;
+  margin-left: 23px;
+  color: #ff3f6c;
+}
+section .filter-block-container .filter-block .colour-colorDisplay {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #d6d6d6;
+}
+section .product-block-container {
+  margin-top: 27px;
+  border-top: 1px solid #e9e9ed;
+}
+section .product-block-container .row .col {
+  width: 20%;
+  flex: unset;
+}
+section .product-block-container .product-block {
+  position: relative;
+  color: #535665;
+  text-decoration: none;
+}
+section .product-block-container .product-block .product-title {
+  font-weight: bold;
+  font-size: 12px;
+  color: #282c3f;
+}
+section .product-block-container .product-block .product-description {
+  font-size: 10px;
+  color: #535766;
+}
+section .product-block-container .product-block .product-price .product-discountedPrice {
+  font-size: 10px;
+  font-weight: 700;
+  color: #282c3f;
+}
+section .product-block-container .product-block .product-price .product-strike {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 8px;
+}
+section .product-block-container .product-block .product-price .product-discountPercentage {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 10px;
+  margin-left: 5px;
+}
+section .product-block-container .product-block .product-image {
+  position: relative;
+}
+section .product-block-container .product-block .product-image .product-rating {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 6px;
+  font-weight: bold;
+  font-size: 8px;
+}
+section .product-block-container .product-block:hover {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+section .product-block-container .product-block:hover .wishlist {
+  opacity: 1; /* Show the wishlist button on hover */
+}
+section .product-block-container .product-block .wishlist {
+  position: absolute;
+  bottom: 30px; /* Initial position below the product block */
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  height: 80px;
+  opacity: 0; /* Hide the wishlist button by default */
+}
+section .product-block-container .product-block .wishlist button {
+  padding: 6px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: 1px solid #a9afb1;
+  background-color: #fff;
+}
+section .product-block-container .product-block .wishlist button:hover {
+  border: 1px solid #000;
+}
+section .product-block-container .product-block .wishlist button i {
+  margin-top: 3px;
+}
+section .product-block-container .product-block .wishlist small {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.product-block:hover .wishlist {
+  opacity: 1; /* Show the wishlist button on hover */
+}
+
+/* Ends here */
+.desktop-container {
+  height: 88vh;
+  padding: 20px 0;
+}
+.desktop-container .login-form {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  height: 500px;
+  width: 400px;
+}
+.desktop-container .login-form .signInContainer {
+  padding: 36px 36px 0;
+}
+.desktop-container .login-form .signInContainer .welcome-header {
+  font-family: Assistant;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.desktop-container .login-form .signInContainer .welcome-header .welcome-header-small {
+  font-size: 16px;
+  font-weight: 400;
+  color: #535766;
+}
+.desktop-container .login-form .signInContainer .mobileInputContainer {
+  position: relative;
+}
+.desktop-container .login-form .signInContainer .mobileInputContainer .form-group {
+  margin-bottom: 24px;
+}
+.desktop-container .login-form .signInContainer .mobileInputContainer .form-group .mobileNumberInput {
+  padding-left: 62px;
+}
+.desktop-container .login-form .signInContainer .mobileInputContainer .form-group .form-control {
+  border: 1px solid #d4d5d9;
+  font-size: 14px;
+  padding: 11px 12px;
+  line-height: 16px;
+  height: auto;
+  color: #282c3f;
+}
+.desktop-container .login-form .signInContainer .mobileInputContainer .form-group .placeholderAlternative {
+  color: #94969f;
+  top: 10px;
+  left: 12px;
+  font-size: 14px;
+  position: absolute;
+  pointer-events: none;
+}
+.desktop-container .login-form .signInContainer .mobileInputContainer .form-group .bar {
+  display: none;
+  position: relative;
+  border-bottom: 1px solid #a9abb3;
+}
+.desktop-container .login-form .signInContainer .mobileInputContainer .midLinks {
+  margin: 0 0 21px;
+  color: rgba(40, 44, 63, 0.8);
+}
+.desktop-container .login-form .signInContainer .mobileInputContainer .submitBottomOption {
+  cursor: pointer;
+  background-color: #ff3f6c;
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.desktop-container .login-form .signInContainer .get-help {
+  margin: 30px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

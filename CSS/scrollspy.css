@@ -1,0 +1,63 @@
+body {
+  height: 100vh;
+  width: 100wh;
+  font-family: arial;
+  color: #222;
+}
+.accordion-button {
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: 400;
+}
+
+.active {
+  color: #122c91;
+  font-weight: 700;
+}
+.accordion-body {
+  padding: 20px 0;
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  padding: 12px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+  background-image: url("./icons8-tick.svg");
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  background-position: 0 1px;
+  background-size: 16px;
+}
+.division {
+  width: 50%;
+  background-color: red;
+}
+nav .collapse ul li .nav-link.active {
+  color: rgb(42, 111, 219);
+}
+nav .collapse ul li .nav-link {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 16px;
+}
+#navbar-example2 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section {
+  height: 290px;
+  max-height: none;
+  font-size: 16px;
+  line-height: 2;
+  padding: 20px 0;
+}
+section h2 {
+  font-size: 16px;
+}

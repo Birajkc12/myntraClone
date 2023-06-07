@@ -1,0 +1,106 @@
+header {
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+  background-color: unset transparent;
+  .navbar {
+    .navbar-collapse {
+      ul {
+        li {
+          position: relative;
+          a {
+            padding: 0 17px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 14px;
+            letter-spacing: 0.3px;
+            color: #282c3f;
+            border-bottom: none;
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+          span {
+            display: inline-block;
+            font-size: 10px;
+            color: #ff3f6c;
+            letter-spacing: normal;
+            text-align: left;
+            font-weight: 600;
+            position: absolute;
+            top: 0;
+            left: 105%;
+            transform: translateX(-50%);
+            sup {
+              font-size: 100%;
+              line-height: 0;
+              position: relative;
+              vertical-align: baseline;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+
+      form {
+        .desktop-query {
+          width: 320px;
+          display: flex;
+          align-items: center;
+
+          .desktop-searchBar {
+            border: none;
+            line-height: 24px;
+            border-radius: 4px;
+            color: #696e79;
+            background-color: #f5f5f6;
+            font-size: 14px;
+
+            .desktop-submit {
+              border: none;
+              line-height: 24px;
+              border-radius: 4px;
+              color: #696e79;
+              background-color: #f5f5f6;
+              font-size: 14px;
+
+              .bi-search {
+                font-size: 1.2rem;
+                position: absolute;
+                right: 0.5rem;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .signup-btn {
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+
+  // Media Queries
+  @media (max-width: 992px) {
+    .navbar {
+      .navbar-collapse {
+        ul {
+          flex-direction: column;
+          align-items: flex-start;
+
+          li {
+            a {
+              padding: 10px 0;
+            }
+          }
+        }
+      }
+    }
+
+    .signup-btn {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+}

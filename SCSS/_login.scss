@@ -1,0 +1,71 @@
+.desktop-container {
+  height: 88vh;
+  padding: 20px 0;
+  .login-form {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    // border: 2px solid;
+    height: 500px;
+    width: 400px;
+    .signInContainer {
+      padding: 36px 36px 0;
+      .welcome-header {
+        font-family: Assistant;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        .welcome-header-small {
+          font-size: 16px;
+          font-weight: 400;
+          color: #535766;
+        }
+      }
+      .mobileInputContainer {
+        position: relative;
+        .form-group {
+          margin-bottom: 24px;
+          .mobileNumberInput {
+            padding-left: 62px;
+          }
+          .form-control {
+            border: 1px solid #d4d5d9;
+            font-size: 14px;
+            padding: 11px 12px;
+            line-height: 16px;
+            height: auto;
+            color: #282c3f;
+          }
+          .placeholderAlternative {
+            color: #94969f;
+            top: 10px;
+            left: 12px;
+            font-size: 14px;
+            position: absolute;
+            pointer-events: none;
+          }
+          .bar {
+            display: none;
+            position: relative;
+            border-bottom: 1px solid #a9abb3;
+          }
+        }
+        .midLinks {
+          margin: 0 0 21px;
+          color: rgba(40, 44, 63, 0.8);
+        }
+        .submitBottomOption {
+          cursor: pointer;
+          background-color: #ff3f6c;
+          text-align: center;
+          padding: 12px;
+          color: #fff;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+      .get-help {
+        margin: 30px 0;
+      }
+    }
+  }
+}
